@@ -1,8 +1,8 @@
 // src/components/Header.tsx
 import React from "react";
 import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import logo from "../../public/logo.svg";
+import styles from "@/app/main/page.module.css";
+import logo from "../../../public/logo.svg";
 
 const Header = () => {
   return (

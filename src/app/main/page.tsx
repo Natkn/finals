@@ -3,7 +3,7 @@
 
 import Header from "@/app/components/header";
 import Card from "@/app/components/card";
-import styles from "@/styles/Home.module.css";
+import styles from "@/app/main/page.module.css";
 
 export default function Home() {
   const scrollToTop = () => {

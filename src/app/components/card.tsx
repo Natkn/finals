@@ -1,6 +1,6 @@
 // src/components/Card.tsx
 import React from "react";
-import styles from "@/styles/Home.module.css";
+import styles from "@/app/main/page.module.css";
 
 interface CardProps {
   text: string;
