@@ -1,0 +1,57 @@
+# Ignore node_modules for safety and performance
+/node_modules
+
+# Ignore Next.js specific directories and files
+.next/
+.next/cache/
+out/
+build/
+dist/
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs and debugging files
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log* # Если вы используете Lerna
+.pnpm-debug.log*
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore test output
+/coverage
+/.nyc_output
+
+# Ignore IDE and editor configuration files
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore build artifacts for specific tools
+*.pem
+
+# Ignore TypeScript build info files
+*.tsbuildinfo
+
+# Ignore Vercel deployment files
+.vercel/
