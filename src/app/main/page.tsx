@@ -1,6 +1,6 @@
 // src/app/page.tsx
 "use client";
-import React, { useRef, useEffect } from "react";
+
 import Header from "@/app/components/header";
 import Card from "@/app/components/card";
 import styles from "@/styles/Home.module.css";
